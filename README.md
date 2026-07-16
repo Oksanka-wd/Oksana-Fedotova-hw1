@@ -16,4 +16,4 @@ def get_days_from_today(date):
         return "Помилка: введіть дату у форматі 'РРРР-ММ-ДД'"
 
 # Приклад використання
-print(get_days_from_today("2026-07-09")) 
+print(get_days_from_today("2026-07-16”))
