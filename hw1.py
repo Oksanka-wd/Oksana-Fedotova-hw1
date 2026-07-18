@@ -10,7 +10,7 @@ def get_days_from_today(date):
     # We calculate the difference between the current date and the specified date
     difference = current_date - date_obj 
     # Return the difference in days as an integer
-     return difference.day
+     return difference.days
     except ValueError: 
         return "Invalid date format. Enter date in 'YYYY-MM-DD' format."
 
