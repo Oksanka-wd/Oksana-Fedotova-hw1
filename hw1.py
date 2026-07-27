@@ -5,7 +5,7 @@ def get_days_from_today(date: str)-> int:
 
     :param date: рядок в форматі 'YYYY-MM-DD'
     :return: Ціле число - різниця в днях (може бути від'ємним) 
-    :raises ValueError: Якщо формат дати неправильний
+    :raise ValueError: Якщо формат дати неправильний
     """
 
     try:
